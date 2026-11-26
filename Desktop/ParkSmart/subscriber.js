@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 
 const BROKER = process.env.BROKER || 'mqtt://broker.hivemq.com';
-const BASE_TOPIC = 'parksmart/yourname'; // must match the sensor
+const BASE_TOPIC = 'parksmart/ata2026'; // must match the sensor
 const LOT_ID = 'lot-A';
 const TOPIC = `${BASE_TOPIC}/${LOT_ID}/#`;
 

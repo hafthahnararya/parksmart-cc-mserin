@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 
 const BROKER = process.env.BROKER || 'mqtt://broker.hivemq.com';
-const BASE_TOPIC = 'parksmart/yourname'; // change "yourname"
+const BASE_TOPIC = 'parksmart/ata2026'; // change "yourname"
 const LOT_ID = 'lot-A';
 const SLOT_COUNT = 6;
 
