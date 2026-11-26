@@ -2,7 +2,7 @@ const hre = require("hardhat");
 
 async function main() {
   // paste the address printed by deploy.js
-  const CONTRACT_ADDRESS = "PASTE_DEPLOYED_ADDRESS_HERE";
+  const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
   const energyData = await hre.ethers.getContractAt("EnergyData", CONTRACT_ADDRESS);
 
